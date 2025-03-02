@@ -1,76 +1,95 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
+ **Alexis Vedia**
+ ---
+**Frontend Developer & UX/UI Designer | React + TypeScript Specialist  
+Passionate about solving technical challenges and designing intuitive experiences. I combine design expertise with clean code to build scalable, user-centered products. I also excel in logic and error solving.** <br>
+
+![Postman](https://img.shields.io/badge/Postman-05122A?style=flat&logo=postman)&nbsp;
+![Figma](https://img.shields.io/badge/Figma-05122A?style=flat&logo=figma)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
+![Typescript](https://img.shields.io/badge/Typescript-05122A?style=flat&logo=typescript)&nbsp;
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap&logoColor=563D7C)\
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+
+### 💡 Key Technologies
+
+<table>
+  <tr>
+    <td valign="top">
+      <b>Frontend</b><br>
+     • React (Hooks, Context API)  <br>
+      • TypeScript <br> 
+      • Chakra UI  <br>
+      • HTML5/CSS3<br>
+    </td>
+    <td valign="top">
+       <b>Design</b><br>
+      • Figma (Advanced Prototyping)  <br>
+     • Adobe Suite (Photoshop,<br> Illustrator)<br>
+    </td>
+    <td valign="top">
+       <b>APIs</b> <br>
+      • RESTful API Consumption<br> (Google Maps, internal services)  <br>
+      • Postman<br>
+    </td>
+    <td valign="top">
+       <b>Tools</b><br>
+     • Git (Bitbucket)  <br>
+      • Jira/Trello  <br>
+     • VS Code <br>
+     • QA Manual<br>
+    </td>
+  </tr>
+</table>
+
+
+### 🛠 Highlighted Projects
+<table>
+<tr>
+<td width="50%">
+<h3 align="center">XCONS Ecommerce</h3>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+<a href="https://www.xcons.com.ar" target="_blank"><img src="https://github.com/AxSRockS/AxSRockS/blob/main/Captura%20de%20pantalla%20(114).png" width="400" alt="XCONS"></a>
+<p>
+<a href="https://www.xcons.com.ar" target="_blank">
+    <img src="https://img.shields.io/badge/Visit_site-blue">
+</a>
+</p>
+<p>Created, validated, and implemented reusable design components in Figma, incorporating UX best practices to ensure visual consistency across static pages and the e-commerce platform.</p>
+</div>                                                                                
+</td>
+<td width="50%">
+<h3 align="center">FusionOS SaaS Application</h3>
+<div align="center">                                       
+<a href="https://backoffice.fusionos.ai/home" target="_blank"><img src="https://raw.githubusercontent.com/AxSRockS/AxSRockS/refs/heads/main/Captura%20de%20pantalla%20(112).png" width="400" alt="Higen img"></a>
+<br>
+<p>
+
+<a href="https://backoffice.fusionos.ai/home" target="_blank">
+    <img src="https://img.shields.io/badge/Visit_site-blue">
+</a>
+</p>
+<p>Developed interfaces with Chakra UI, integrating dynamic form logic, AI functionalities and API connections. </strong>  </p><br><br>
+</div>    
+
+</td>
+
+</table>                                                                                 
 </div>
 
-<br/>
+### 🤝 Soft Skills 
+• **Startup Experience:** Worked in 2 startups, adapting quickly to change.  
+• **Fast Learner:** Quick to grasp new technologies.  
+• **Excellent Communicator:** Great team player; well-liked by colleagues.  
+• **Agile Methodologies:** Experienced in dailies, demos, plannings, and retros. <br>
 
-<center>
+|  Focus |  Extras |
+| -------- | -------- |
+| - Integrating AI/ML solutions into the frontend <br>- Mastering scalable architectures<br>- Exploring AWS/Azure fundamentals<br>- CI/CD pipelines (theoretical knowledge)<br>- Python scripts for task automation, ChatGPT API experiments | - Video Editing <br>- WordPress (Theme Development) |
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
-
-## Built With
-
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+💬 &nbsp;Feel free to reach out to me for general consulting, or discussions on the aforementioned topics!<br>
+✉️ &nbsp;You can email me at <a href="mailto:axsrocks@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp; I'll try to respond as soon as possible!<br>
+📄 &nbsp;You can check my <a href="https://www.linkedin.com/in/alexis-vedia-80b936190"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white"/></a> &nbsp; for more details about work experience.
