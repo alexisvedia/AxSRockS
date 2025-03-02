@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+const Home2: React.FC = () => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -31,10 +31,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                also in areas related to <b className="purple">Blockchain.</b>
               </i>
               <br />
               <br />
@@ -69,7 +66,7 @@ function Home2() {
                 <a
                   href="https://github.com/soumyajit4419"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
@@ -79,7 +76,7 @@ function Home2() {
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
@@ -89,7 +86,7 @@ function Home2() {
                 <a
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
@@ -99,7 +96,7 @@ function Home2() {
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
@@ -111,5 +108,6 @@ function Home2() {
       </Container>
     </Container>
   );
-}
+};
+
 export default Home2;

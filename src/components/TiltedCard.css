@@ -1,0 +1,143 @@
+.tilted-card-figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    overflow: visible;
+}
+
+.tilted-card-inner {
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-out;
+    will-change: transform;
+}
+
+.tilted-card-img {
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease-out;
+    will-change: transform;
+}
+
+.tilted-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: translateZ(20px);
+}
+
+.tilted-card-inner:hover .tilted-card-overlay {
+    opacity: 1;
+}
+
+.tilted-card-caption {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 10;
+    will-change: transform, opacity;
+}
+
+.tilted-card-mobile-alert {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+/* Estilos para el contenido del overlay de proyectos */
+.project-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    transform: translateZ(20px);
+}
+
+.project-overlay h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #cd5ff8;
+    transform: translateZ(30px);
+}
+
+.project-overlay p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #ffffff;
+    transform: translateZ(25px);
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    transform: translateZ(35px);
+}
+
+.project-links a {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #623686;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    background-color: #cd5ff8;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .tilted-card-mobile-alert {
+        display: block;
+    }
+
+    .project-overlay h3 {
+        font-size: 20px;
+    }
+
+    .project-overlay p {
+        font-size: 12px;
+    }
+
+    .project-links a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

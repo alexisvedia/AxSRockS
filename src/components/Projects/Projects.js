@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import TiltedCard from "../TiltedCard";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
@@ -15,76 +15,247 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mis <strong className="purple">Proyectos </strong>Recientes
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Aquí hay algunos proyectos en los que he trabajado recientemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+            <TiltedCard
+              imageSrc={chatify}
+              altText="Chatify"
+              captionText="Chatify - Chat en tiempo real"
+              containerHeight="300px"
+              containerWidth="100%"
+              imageHeight="300px"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.1}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <div className="project-overlay">
+                  <h3>Chatify</h3>
+                  <p>
+                    Chat Room personal con React.js, Material-UI y Firebase.
+                    Mensajería en tiempo real y compartir imágenes.
+                  </p>
+                  <div className="project-links">
+                    <a
+                      href="https://github.com/soumyajit4419/Chatify"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://chatify-49.web.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+            <TiltedCard
+              imageSrc={bitsOfCode}
+              altText="Bits-0f-C0de"
+              captionText="Blog Personal con Next.js"
+              containerHeight="300px"
+              containerWidth="100%"
+              imageHeight="300px"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.1}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <div className="project-overlay">
+                  <h3>Bits-0f-C0de</h3>
+                  <p>
+                    Blog personal construido con Next.js y Tailwind CSS. Soporte
+                    para modo oscuro y markdown.
+                  </p>
+                  <div className="project-links">
+                    <a
+                      href="https://github.com/soumyajit4419/Bits-0f-C0de"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://blogs.soumya-jit.tech/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+            <TiltedCard
+              imageSrc={editor}
+              altText="Editor.io"
+              captionText="Editor de código online"
+              containerHeight="300px"
+              containerWidth="100%"
+              imageHeight="300px"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.1}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <div className="project-overlay">
+                  <h3>Editor.io</h3>
+                  <p>
+                    Editor de código y markdown online con React.js. Soporte
+                    para HTML, CSS y JS con vista previa instantánea.
+                  </p>
+                  <div className="project-links">
+                    <a
+                      href="https://github.com/soumyajit4419/Editor.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://editor.soumya-jit.tech/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+            <TiltedCard
+              imageSrc={leaf}
+              altText="Plant AI"
+              captionText="IA para detección de enfermedades en plantas"
+              containerHeight="300px"
+              containerWidth="100%"
+              imageHeight="300px"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.1}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <div className="project-overlay">
+                  <h3>Plant AI</h3>
+                  <p>
+                    Clasificador de imágenes con PyTorch para detectar
+                    enfermedades en plantas. 98% de precisión usando Resnet34.
+                  </p>
+                  <div className="project-links">
+                    <a
+                      href="https://github.com/soumyajit4419/Plant_AI"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://plant49-ai.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            <TiltedCard
+              imageSrc={suicide}
+              altText="AI For Social Good"
+              captionText="IA para el bien social"
+              containerHeight="300px"
+              containerWidth="100%"
+              imageHeight="300px"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.1}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <div className="project-overlay">
+                  <h3>AI For Social Good</h3>
+                  <p>
+                    NLP para la detección de posts relacionados con suicidio y
+                    prevención.
+                  </p>
+                  <div className="project-links">
+                    <a
+                      href="https://github.com/soumyajit4419/AI_For_Social_Good"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            <TiltedCard
+              imageSrc={emotion}
+              altText="Face Recognition and Emotion Detection"
+              captionText="Reconocimiento facial y detección de emociones"
+              containerHeight="300px"
+              containerWidth="100%"
+              imageHeight="300px"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.1}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <div className="project-overlay">
+                  <h3>Detección de Emociones</h3>
+                  <p>
+                    CNN con Keras y TensorFlow para detectar emociones en
+                    rostros. 60.1% de precisión.
+                  </p>
+                  <div className="project-links">
+                    <a
+                      href="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Col>
         </Row>

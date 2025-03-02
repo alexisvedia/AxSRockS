@@ -4,25 +4,45 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import TextPressure from "../TextPressure";
+import Aurora from "../Aurora";
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+        <Aurora
+          colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
+        />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+              <div
+                style={{
+                  position: "relative",
+                  height: "100px",
+                  marginBottom: "20px",
+                }}
+              >
+                <TextPressure
+                  text="Que haces Coquenshi?"
+                  flex={true}
+                  alpha={false}
+                  stroke={true}
+                  width={true}
+                  weight={true}
+                  italic={true}
+                  textColor="#ffffff"
+                  strokeColor="#623686"
+                  minFontSize={36}
+                />
+              </div>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                Soy <strong className="main-name"> ALEXIS VEDIA</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -44,6 +64,6 @@ function Home() {
       <Home2 />
     </section>
   );
-}
+};
 
 export default Home;
