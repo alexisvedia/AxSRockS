@@ -114,14 +114,6 @@ I am a passionate React frontend developer, experienced UX/UI designer, and AI e
 - Conducted functional testing, bug detection, and documentation  
 - Ensured quality control in digital processes and products  
 
-### 🎓 Education & Certifications
-- **Platzi:** Technical specialization courses  
-- **Udemy:** Training in React, UX/UI, and web technologies  
-
-### 🌐 Languages
-- **Spanish:** Native  
-- **English:** Intermediate  
-
 ### 🤝 Personal Skills
 - Creative and effective problem solving  
 - Clear communication and teamwork  
