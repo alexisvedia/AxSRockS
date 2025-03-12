@@ -1,7 +1,7 @@
 **Alexis Vedia**
 ---
 **Frontend Developer & UX/UI Designer | React + TypeScript Specialist  
-Passionate about solving technical challenges and designing intuitive experiences. I combine design expertise with clean code to build scalable, user-centered products. I also excel in logic and error solving.** <br>
+I am a passionate React frontend developer, experienced UX/UI designer, and AI enthusiast. I stand out for my adaptability, teamwork, humility, and unwavering commitment to excellence. I continuously seek challenges that foster both my professional and personal growth.** <br>
 
 ![Postman](https://img.shields.io/badge/Postman-05122A?style=flat&logo=postman)&nbsp;
 ![Figma](https://img.shields.io/badge/Figma-05122A?style=flat&logo=figma)&nbsp;
@@ -14,13 +14,8 @@ Passionate about solving technical challenges and designing intuitive experience
 ![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
 
-### 📧 Contact Information
-- **Email:** axsrocks@gmail.com
-- **Website:** [FusionOS.ai](https://fusionos.ai)
-- **Location:** Argentina
 
 ### 💼 Professional Profile
-I am a passionate React frontend developer, experienced UX/UI designer, and AI enthusiast. I stand out for my adaptability, teamwork, humility, and unwavering commitment to excellence. I continuously seek challenges that foster both my professional and personal growth.
 
 ### 💡 Key Technologies
 
