@@ -32,6 +32,7 @@ I am a passionate React frontend developer, experienced UX/UI designer, and AI e
       <b>Design</b><br>
       • Figma (Advanced Prototyping)  <br>
       • Adobe Suite (Photoshop,<br> Illustrator)<br>
+      • Clarity<br><br>
     </td>
     <td valign="top">
       <b>APIs</b> <br>
