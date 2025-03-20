@@ -45,6 +45,7 @@ I am a passionate React frontend developer, experienced UX/UI designer, and AI e
       • Jira/Trello  <br>
       • VS Code <br>
       • QA Manual<br>
+      • Wordpress (Advanced)<br>
     </td>
   </tr>
 </table>
