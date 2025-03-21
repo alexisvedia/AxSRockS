@@ -98,7 +98,7 @@ I am a passionate React frontend developer, experienced UX/UI designer, and AI e
 ### 💼 Professional Experience
 
 🚀 **Full Stack Engineer**  
-*FusionOS.ai | 2024 – Present*  
+*FusionAds.ai | 2024 – 2025*  
 - Advanced frontend development with React and TypeScript  
 - Integration and consumption of REST APIs  
 - Implementation and maintenance of dynamic and scalable interfaces  
