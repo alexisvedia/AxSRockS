@@ -129,5 +129,5 @@ I am a passionate React frontend developer, experienced UX/UI designer, and AI e
 - **Agile Methodologies:** Experienced in daily stand-ups, demos, planning sessions, and retrospectives.
 
 💬 &nbsp;Feel free to reach out to me for general consulting or discussions on the aforementioned topics!<br>
-✉️ &nbsp;You can email me at <a href="mailto:axsrocks@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp;I'll try to respond as soon as possible!<br>
+✉️ &nbsp;You can email me at <a href="mailto:alexisleonelvedia@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp;I'll try to respond as soon as possible!<br>
 📄 &nbsp;You can check my <a href="https://www.linkedin.com/in/alexis-vedia-80b936190"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white"/></a> for more details about my work experience.
