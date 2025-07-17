@@ -97,6 +97,17 @@ I am a passionate React frontend developer, experienced UX/UI designer, and AI e
 
 ### 💼 Professional Experience
 
+🎨 **UI/UX Designer**  
+*Bandit | 2025 – 2025*  
+- Redesign proposals for each platform section
+- Competitor research
+- Aesthetic development of new components
+- Teamwork collaboration
+- General and detailed experience improvements
+- Review of real user sessions
+- Beginning of mobile proposal development
+
+
 🚀 **Full Stack Engineer**  
 *FusionAds.ai | 2024 – 2025*  
 - Advanced frontend development with React and TypeScript  
