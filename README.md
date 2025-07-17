@@ -1,6 +1,6 @@
 **Alexis Vedia**
 ---
-**Frontend Developer & UX/UI Designer | React + TypeScript Specialist  
+**Full Stack Developer & UX/UI Designer | React + TypeScript Specialist  
 I am a passionate React frontend developer, experienced UX/UI designer, and AI enthusiast. I stand out for my adaptability, teamwork, humility, and unwavering commitment to excellence. I continuously seek challenges that foster both my professional and personal growth.** <br> 
 
 ![Postman](https://img.shields.io/badge/Postman-05122A?style=flat&logo=postman)&nbsp;
